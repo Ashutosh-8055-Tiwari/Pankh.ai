@@ -12,16 +12,16 @@ export const Footer = () => {
         <div className="flex flex-col w-[50%] justify-between mb-8 md:mb-0">
           <h2 className="text-[24px] leading-[36px] font-[400] text-[#000000] dark:text-zinc-100">Site name</h2>
           <div className="flex space-x-4 mt-4">
-            <Link  href="#" aria-label="Facebook">
+            <Link  href={"#"} aria-label="Facebook">
               <MdOutlineFacebook  className='text-[#828282] w-7 h-7'/>
             </Link>
-            <Link href="#" aria-label="LinkedIn">
+            <Link href={"#"} aria-label="LinkedIn">
              <FaLinkedin className='text-[#828282] w-7 h-7 '/>
             </Link>
-            <Link href="#" aria-label="YouTube">
+            <Link href={"#"} aria-label="YouTube">
               <FaYoutube className='text-[#828282] w-7 h-7 '/>
             </Link>
-            <Link href="#" aria-label="Instagram">
+            <Link href={"#"} aria-label="Instagram">
              <FaInstagram className='text-[#828282] w-7 h-7 '/>
             </Link>
           </div>
@@ -31,28 +31,28 @@ export const Footer = () => {
             Topic
           </h3>
           <ul className="mt-2 space-y-1">
-            <li><a href="#" className="text-zinc-600 dark:text-zinc-400">Page</a></li>
-            <li><a href="#" className="text-zinc-600 dark:text-zinc-400">Page</a></li>
-            <li><a href="#" className="text-zinc-600 dark:text-zinc-400">Page</a></li>
-            <li><a href="#" className="text-zinc-600 dark:text-zinc-400">Page</a></li>
+            <li><Link href={"#"} className="text-zinc-600 dark:text-zinc-400">Page</Link></li>
+            <li><Link href={"#"} className="text-zinc-600 dark:text-zinc-400">Page</Link></li>
+            <li><Link href={"#"} className="text-zinc-600 dark:text-zinc-400">Page</Link></li>
+            <li><Link href={"#"} className="text-zinc-600 dark:text-zinc-400">Page</Link></li>
           </ul>
         </div>
         <div className="flex-1 mb-8 md:mb-0">
           <h3 className="text-sm font-semibold text-zinc-900 dark:text-zinc-100">Topic</h3>
           <ul className="mt-2 space-y-1">
-            <li><a href="#" className="text-zinc-600 dark:text-zinc-400">Page</a></li>
-            <li><a href="#" className="text-zinc-600 dark:text-zinc-400">Page</a></li>
-            <li><a href="#" className="text-zinc-600 dark:text-zinc-400">Page</a></li>
-            <li><a href="#" className="text-zinc-600 dark:text-zinc-400">Page</a></li>
+            <li><Link href={"#"} className="text-zinc-600 dark:text-zinc-400">Page</Link></li>
+            <li><Link href={"#"} className="text-zinc-600 dark:text-zinc-400">Page</Link></li>
+            <li><Link href={"#"} className="text-zinc-600 dark:text-zinc-400">Page</Link></li>
+            <li><Link href={"#"} className="text-zinc-600 dark:text-zinc-400">Page</Link></li>
           </ul>
         </div>
         <div className="flex-1 mb-8 md:mb-0">
           <h3 className="text-sm font-semibold text-zinc-900 dark:text-zinc-100">Topic</h3>
           <ul className="mt-2 space-y-1">
-            <li><a href="#" className="text-zinc-600 dark:text-zinc-400">Page</a></li>
-            <li><a href="#" className="text-zinc-600 dark:text-zinc-400">Page</a></li>
-            <li><a href="#" className="text-zinc-600 dark:text-zinc-400">Page</a></li>
-            <li><a href="#" className="text-zinc-600 dark:text-zinc-400">Page</a></li>
+            <li><Link href={"#"} className="text-zinc-600 dark:text-zinc-400">Page</Link></li>
+            <li><Link href={"#"} className="text-zinc-600 dark:text-zinc-400">Page</Link></li>
+            <li><Link href={"#"} className="text-zinc-600 dark:text-zinc-400">Page</Link></li>
+            <li><Link href={"#"} className="text-zinc-600 dark:text-zinc-400">Page</Link></li>
           </ul>
         </div>
       </div>
