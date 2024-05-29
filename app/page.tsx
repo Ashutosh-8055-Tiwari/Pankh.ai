@@ -18,7 +18,7 @@ export default function Home() {
           <p className="text-[#828282] text-justify text-lg dark:text-zinc-300 w-[70%] mb-6 md:text-center">
             Welcome to PANKH AI where you can harness the power of your undefined to train state-of-the-art Language Models (LLMs). Empower your projects, unleash creativity, and unlock insights like never before. Begin your journey into the world of advanced AI with us.
           </p>
-          <Button data={'Learn More'} />
+          <Button data={'Book Demo'} />
       </div>
 
       <Infotant />
