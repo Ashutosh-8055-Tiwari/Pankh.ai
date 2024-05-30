@@ -41,7 +41,7 @@ const WebDevservices = [
 
 export const ServiceMenu = () => {
   return (
-    <div className="container mx-auto p-6 bg-[#F7F7F7]">
+    <div className="container mx-auto p-6 bg-[#F7F7F7] dark:bg-gray-900 dark:text-white" >
       <h2 className="text-center text-[40px] leading-[60px] font-bold mb-16 mt-10">Web Development Services</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
         {WebDevservices.map((service, index) => (

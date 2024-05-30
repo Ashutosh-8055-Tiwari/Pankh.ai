@@ -9,13 +9,13 @@ import { Footer } from "./components/Footer";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col p-10 bg-[#FFFFFF]">
+    <main className="flex min-h-screen flex-col p-10 bg-[#FFFFFF] dark:bg-gray-900 dark:text-[#FFFFFF]">
       
       <Navbar />
 
-      <div className="mt-20 flex flex-col items-center mb-20 dark:bg-zinc-900 text-center p-4">
-          <h1 className="text-3xl md:text-5xl font-bold text-[#000000] dark:text-white mb-4">KRITRUM PANKH SOLUTIONS</h1>
-          <p className="text-[#828282] text-justify text-lg dark:text-zinc-300 w-[70%] mb-6 md:text-center">
+      <div className="mt-20 flex flex-col items-center mb-20 text-center p-4">
+          <h1 className="text-3xl md:text-5xl font-bold text-[#000000] mb-4 dark:text-white">KRITRUM PANKH SOLUTIONS</h1>
+          <p className="text-[#828282] text-justify text-lg w-[70%] mb-6 md:text-center">
             Welcome to PANKH AI where you can harness the power of your undefined to train state-of-the-art Language Models (LLMs). Empower your projects, unleash creativity, and unlock insights like never before. Begin your journey into the world of advanced AI with us.
           </p>
           <Button data={'Book Demo'} />
@@ -24,7 +24,7 @@ export default function Home() {
       <Infotant />
 
 
-      <div className=" mx-auto p-6 bg-white dark:bg-zinc-800 text-[#828282] dark:text-zinc-100 text-lg text-justify w-[90%]">
+      <div className=" mx-auto p-6 bg-white  text-[#828282]  text-lg text-justify w-[90%] dark:bg-gray-900 dark:text-white">
           <p className="mb-4">
             Introducing AI Custom Model Training Services, a revolutionary solution empowering companies to harness the full potential of their undefined. With our advanced artificial intelligence technology, we enable businesses to bring their own undefinedsets and craft bespoke machine learning models tailored to their unique objectives.
           </p>
@@ -57,9 +57,9 @@ export default function Home() {
 
     <ContactUs />
 
-    <div className="flex flex-col items-center w-full   dark:bg-zinc-900 mt-28">
-          <h1 className="text-[40px] leading-[44px] font-[600] text-[#000000] dark:text-zinc-100">KRITRUM PANKH SOLUTIONS</h1>
-          <p className="text-[#828282] text-[24px] leading-[36px] font-[400] dark:text-zinc-400 mt-5 mb-10">Empowering Businesses with Cutting-Edge Generative AI Solutions</p>
+    <div className="flex flex-col items-center w-full   mt-28">
+          <h1 className="text-[40px] leading-[44px] font-[600] text-[#000000]  dark:text-white ">KRITRUM PANKH SOLUTIONS</h1>
+          <p className="text-[#828282] text-[24px] leading-[36px] font-[400]  mt-5 mb-10">Empowering Businesses with Cutting-Edge Generative AI Solutions</p>
           <Button data={"Button"} />
     </div>
 

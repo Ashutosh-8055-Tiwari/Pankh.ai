@@ -6,7 +6,7 @@ import React from 'react'
 const Page = () => {
   return (
    
-    <main className="flex min-h-screen flex-col p-10 bg-[#FFFFFF]">
+    <main className="flex min-h-screen flex-col p-10 bg-[#FFFFFF] dark:bg-gray-900 dark:text-white">
        
         <Navbar />
 

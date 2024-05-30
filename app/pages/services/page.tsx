@@ -103,7 +103,7 @@ const TrainingModelservices = [
 
 const Page = () => {
   return (
-    <main className="flex min-h-screen flex-col p-10 bg-[#FFFFFF]">
+    <main className="flex min-h-screen flex-col p-10 bg-[#FFFFFF] dark:bg-gray-900 dark:text-white">
 
       <Navbar />
 
@@ -111,42 +111,42 @@ const Page = () => {
       <ServicesInfo title={"Our Services"} description={"Empowering Your Business with Comprehensive AI and Development Solutions"} image={image1.src} />
 
 
-      <div className="mt-10 mx-auto p-4 bg-white dark:bg-zinc-800 text-[#00000] dark:text-zinc-100 w-[70%] text-justify">
+      <div className="mt-10 mx-auto p-4 bg-white dark:bg-gray-900 dark:text-white text-[#00000]  w-[70%] text-justify">
           <p className='font-[400] text-[20px] leading-[30px]'>
             Our company stands out in the market by offering tailored fine-tuning of large language models (LLMs) to meet industry-specific needs, ensuring high relevance and accuracy. Our intuitive user interface democratizes AI technology, making it accessible to all skill levels. We ensure seamless integration with existing enterprise systems, minimizing disruption and maximizing efficiency. Leveraging NVIDIA's advanced GPU technology, we provide high-performance training and deployment, enhancing productivity. With extensive expertise and a proven track record in AI solutions across various sectors, we bring unparalleled practical insights. Our scalable and flexible platform adapts to business growth, offering deployment options to suit diverse needs. These factors position us as a leader in delivering efficient, effective, and user-friendly AI solutions for enterprises.
           </p>
       </div>
 
 
-      <div className="max-w-7xl mx-auto p-6 mt-20">
+      <div className="max-w-7xl mx-auto p-6 mt-20 ">
         <h1 className="text-center text-2xl md:text-3xl font-bold mb-8">
         Empowering Your Business with Custom Web Development, Intuitive Interface Design, and Tailored AI Model Training for Optimal Performance and Innovation.
         </h1>
-        <div className="grid gap-6 md:grid-cols-3">
-          <div className="bg-white dark:bg-zinc-800 rounded-lg shadow-md p-4">
+        <div className="grid gap-6 md:grid-cols-3 ">
+          <div className="bg-white  rounded-lg shadow-md p-4 dark:bg-gray-900 dark:text-white">
             <img src={image2.src} alt="Web Development" className="w-full h-48 object-cover rounded-t-lg" />
             <h2 className="text-xl font-semibold mt-4">Web Development</h2>
-            <p className="mt-2 text-[#828282] dark:text-zinc-300 ">
+            <p className="mt-2 text-[#828282] ">
             Pankh AI offers top-notch web development services designed to create robust, scalable, and dynamic websites tailored to your business needs. Our team of experienced developers ensures your online presence is both impactful and efficient.
             </p>
           </div>
-        <div className="bg-white dark:bg-zinc-800 rounded-lg shadow-md p-4">
+        <div className="bg-white  rounded-lg shadow-md p-4 dark:bg-gray-900 dark:text-white">
           <img src={image3.src} alt="Interface Design" className="w-full h-48 object-cover rounded-t-lg" />
           <h2 className="text-xl font-semibold mt-4">Interface Design</h2>
-          <p className="mt-2 text-[#828282] dark:text-zinc-300">
+          <p className="mt-2 text-[#828282] ">
           At Pankh AI, we believe that a well-designed interface is crucial for user engagement and satisfaction. Our interface design services focus on creating intuitive, aesthetically pleasing, and functional user interfaces for web and mobile applications.
           </p>
         </div>
-        <div className="bg-white dark:bg-zinc-800 rounded-lg shadow-md p-4">
+        <div className="bg-white  rounded-lg shadow-md p-4 dark:bg-gray-900 dark:text-white">
           <img src={image4.src} alt="Training Custom Models" className="w-full h-48 object-cover rounded-t-lg" />
           <h2 className="text-xl font-semibold mt-4">Training Custom Models</h2>
-          <p className="mt-2 text-[#828282] dark:text-zinc-300">
+          <p className="mt-2 text-[#828282] ">
           Pankh AI specializes in training custom AI models tailored to your specific business needs. Our expertise in fine-tuning and deploying large language models (LLMs) ensures that your AI solutions deliver accurate, relevant, and actionable insights.
           </p>
         </div>
       </div>
     <div className="text-center mt-8">
-      <button className="bg-black dark:bg-white text-white dark:text-black py-3 px-6 rounded-lg w-[40%] text-xl font-semibold">
+      <button className="bg-black  text-white  py-3 px-6 rounded-lg w-[40%] text-xl font-semibold">
         Get started
       </button>
     </div>
@@ -158,7 +158,7 @@ const Page = () => {
 
     <ServicesInfo title={"Interface Design"} description={"At Pankh AI, we believe that a well-designed interface is crucial for user engagement and satisfaction. Our interface design services focus on creating intuitive, aesthetically pleasing, and functional user interfaces for web and mobile applications."} image={image6.src} />
 
-    <div className="container mx-auto p-6 bg-[#F7F7F7]">
+    <div className="container mx-auto p-6 bg-[#F7F7F7] dark:bg-gray-900 dark:text-white">
       <h2 className="text-center text-[40px] leading-[60px] font-bold mb-16 mt-10">Interface Design Services</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
         {InterfaceDesignservices.map((service, index) => (
@@ -199,7 +199,7 @@ const Page = () => {
 
     <ServicesInfo title={"Training Custom Models"} description={"Pankh AI specializes in training custom AI models tailored to your specific business needs. Our expertise in fine-tuning and deploying large language models (LLMs) ensures that your AI solutions deliver accurate, relevant, and actionable insights."} image={image13.src} />
 
-    <div className="container mx-auto p-6 bg-[#F7F7F7]">
+    <div className="container mx-auto p-6 bg-[#F7F7F7] dark:bg-gray-900 dark:text-white">
       <h2 className="text-center text-[40px] leading-[60px] font-bold mb-16 mt-10">Training Custom Models Services</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
         {TrainingModelservices.map((service, index) => (
@@ -238,17 +238,17 @@ const Page = () => {
       </div>
     </div>
 
-    <div className="flex flex-col items-center w-full   dark:bg-zinc-900 mt-28">
-          <h1 className="text-[40px] leading-[44px] font-[600] text-[#000000] dark:text-zinc-100">Interested in Our Services ?</h1>
-          <p className="text-[#828282] text-center w-[80%] text-[24px] leading-[36px] font-[400] dark:text-zinc-400 mt-5 mb-10">Contact us today to discuss how Pankh AI can help transform your business with our comprehensive web development, interface design, and custom model training services.</p>
+    <div className="flex flex-col items-center w-full    mt-28">
+          <h1 className="text-[40px] leading-[44px] font-[600] text-[#000000] ">Interested in Our Services ?</h1>
+          <p className="text-[#828282] text-center w-[80%] text-[24px] leading-[36px] font-[400]  mt-5 mb-10">Contact us today to discuss how Pankh AI can help transform your business with our comprehensive web development, interface design, and custom model training services.</p>
           <Button data={"Get Started"} />
     </div>
 
     <ContactUs/>
 
-    <div className="flex flex-col items-center w-full   dark:bg-zinc-900 mt-28">
-          <h1 className="text-[40px] leading-[44px] font-[600] text-[#000000] dark:text-zinc-100">KRITRUM PANKH SOLUTIONS</h1>
-          <p className="text-[#828282] text-[24px] leading-[36px] font-[400] dark:text-zinc-400 mt-5 mb-10">Empowering Businesses with Cutting-Edge Generative AI Solutions</p>
+    <div className="flex flex-col items-center w-full    mt-28">
+          <h1 className="text-[40px] leading-[44px] font-[600] text-[#000000] dark:text-white ">KRITRUM PANKH SOLUTIONS</h1>
+          <p className="text-[#828282] text-[24px] leading-[36px] font-[400]  mt-5 mb-10">Empowering Businesses with Cutting-Edge Generative AI Solutions</p>
           <Button data={"Button"} />
     </div>
 
