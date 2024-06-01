@@ -30,30 +30,35 @@ import { Footer } from '@/app/components/Footer';
 
 const InterfaceDesignservices = [
   {
+    id:1,
     imgSrc: image7.src,
     alt: 'User Research and Analysis: ',
     title: 'User Research and Analysis: ',
     description: 'Conducting thorough user research to understand your target audience and their needs.    ',
   },
   {
+    id:2,
     imgSrc: image8.src,
     alt: 'Fine-Tuning Existing Models:',
     title: 'Fine-Tuning Existing Models:',
     description: 'Developing wireframes and prototypes to visualize the structure and functionality of your application.    ',
   },
   {
+    id:3,
     imgSrc: image9.src,
     alt: 'UI/UX Design',
     title: 'UI/UX Design:',
     description: 'Crafting visually appealing and user-friendly interfaces that enhance the user experience.',
   },
   {
+    id:4,
     imgSrc: image10.src,
     alt: 'Usability Testing',
     title: 'Usability Testing:',
     description: 'Performing usability tests to ensure the interface is intuitive and easy to navigate.    ',
   },
   {
+    id:5,
     imgSrc: image11.src,
     alt: 'Interaction Design',
     title: 'Interaction Design:',
@@ -163,7 +168,7 @@ const Page = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
         {InterfaceDesignservices.map((service, index) => (
           <div key={index} className="flex items-start mt-2">
-            <img src={service.imgSrc} alt={service.alt} className="mr-4 mt-6 h-10 w-10" />
+            <img src={service.imgSrc} alt={service.alt} className={`mr-4 mt-6 h-10 w-10 ${service.id === 2 ? '' : 'dark:dark-filter'}` }/>
             <div>
               <h3 className="font-medium text-[24px] md:text-[28px] leading-[36px] md:leading-[48px]">{service.title}</h3>
               <p className="text-[16px] md:text-[18px] leading-[28px] md:leading-[36px] font-normal">{service.description}</p>
@@ -204,7 +209,7 @@ const Page = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
         {TrainingModelservices.map((service, index) => (
           <div key={index} className="flex items-start mt-2">
-            <img src={service.imgSrc} alt={service.alt} className="mr-4 mt-6 h-10 w-10" />
+            <img src={service.imgSrc} alt={service.alt} className="mr-4 mt-6 h-10 w-10 dark:dark-filter" />
             <div>
               <h3 className="font-medium text-[24px] md:text-[28px] leading-[36px] md:leading-[48px]">{service.title}</h3>
               <p className="text-[16px] md:text-[18px] leading-[28px] md:leading-[36px] font-normal">{service.description}</p>
