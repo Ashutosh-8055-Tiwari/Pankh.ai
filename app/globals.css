@@ -32,3 +32,17 @@ body {
     text-wrap: balance;
   }
 }
+
+
+@layer utilities {
+  .dark-filter {
+    --tw-invert: 100%;
+    --tw-sepia: 0%;
+    --tw-saturate: 4441%;
+    --tw-hue-rotate: 92deg;
+    --tw-brightness: 113%;
+    --tw-contrast: 94%;
+
+    filter: invert(var(--tw-invert)) sepia(var(--tw-sepia)) saturate(var(--tw-saturate)) hue-rotate(var(--tw-hue-rotate)) brightness(var(--tw-brightness)) contrast(var(--tw-contrast));
+  }
+}

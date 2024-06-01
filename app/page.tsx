@@ -57,10 +57,15 @@ export default function Home() {
 
     <ContactUs />
 
-    <div className="flex flex-col items-center w-full   mt-28">
-          <h1 className="text-[40px] leading-[44px] font-[600] text-[#000000]  dark:text-white ">KRITRUM PANKH SOLUTIONS</h1>
-          <p className="text-[#828282] text-[24px] leading-[36px] font-[400]  mt-5 mb-10">Empowering Businesses with Cutting-Edge Generative AI Solutions</p>
-          <Button data={"Button"} />
+    
+    <div className="flex flex-col items-center w-full mt-16 sm:mt-20 md:mt-28 px-4 sm:px-6 md:px-8">
+      <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[40px] leading-tight sm:leading-snug md:leading-[44px] font-semibold text-black dark:text-white">
+        KRITRUM PANKH SOLUTIONS
+      </h1>
+      <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-[24px] leading-relaxed sm:leading-normal md:leading-[36px] font-normal text-gray-600 dark:text-[#828282] mt-3 sm:mt-4 md:mt-5 mb-6 sm:mb-8 md:mb-10">
+        Empowering Businesses with Cutting-Edge Generative AI Solutions
+      </p>
+      <Button data={"Button"} />
     </div>
 
     <Footer />

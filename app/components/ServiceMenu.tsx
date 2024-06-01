@@ -46,7 +46,7 @@ export const ServiceMenu = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
         {WebDevservices.map((service, index) => (
           <div key={index} className="flex items-start mt-2">
-            <img src={service.imgSrc} alt={service.alt} className="mr-4 mt-6 h-10 w-10" />
+            <img src={service.imgSrc} alt={service.alt} className="mr-4 mt-6 h-10 w-10 dark:dark-filter" />
             <div>
               <h3 className="font-medium text-[24px] md:text-[28px] leading-[36px] md:leading-[48px]">{service.title}</h3>
               <p className="text-[16px] md:text-[18px] leading-[28px] md:leading-[36px] font-normal">{service.description}</p>

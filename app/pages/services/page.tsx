@@ -111,15 +111,15 @@ const Page = () => {
       <ServicesInfo title={"Our Services"} description={"Empowering Your Business with Comprehensive AI and Development Solutions"} image={image1.src} />
 
 
-      <div className="mt-10 mx-auto p-4 bg-white dark:bg-gray-900 dark:text-white text-[#00000]  w-[70%] text-justify">
-          <p className='font-[400] text-[20px] leading-[30px]'>
-            Our company stands out in the market by offering tailored fine-tuning of large language models (LLMs) to meet industry-specific needs, ensuring high relevance and accuracy. Our intuitive user interface democratizes AI technology, making it accessible to all skill levels. We ensure seamless integration with existing enterprise systems, minimizing disruption and maximizing efficiency. Leveraging NVIDIA's advanced GPU technology, we provide high-performance training and deployment, enhancing productivity. With extensive expertise and a proven track record in AI solutions across various sectors, we bring unparalleled practical insights. Our scalable and flexible platform adapts to business growth, offering deployment options to suit diverse needs. These factors position us as a leader in delivering efficient, effective, and user-friendly AI solutions for enterprises.
-          </p>
-      </div>
+      <div className="mt-10 mx-auto p-4 sm:p-6 md:p-8 lg:p-10 bg-white dark:bg-gray-900  text-black dark:text-white w-full sm:w-[90%] md:w-[80%] lg:w-[70%] text-justify">
+      <p className="font-normal text-base sm:text-lg md:text-xl lg:text-2xl leading-6 sm:leading-7 md:leading-8 lg:leading-9">
+        Our company stands out in the market by offering tailored fine-tuning of large language models (LLMs) to meet industry-specific needs, ensuring high relevance and accuracy. Our intuitive user interface democratizes AI technology, making it accessible to all skill levels. We ensure seamless integration with existing enterprise systems, minimizing disruption and maximizing efficiency. Leveraging NVIDIA's advanced GPU technology, we provide high-performance training and deployment, enhancing productivity. With extensive expertise and a proven track record in AI solutions across various sectors, we bring unparalleled practical insights. Our scalable and flexible platform adapts to business growth, offering deployment options to suit diverse needs. These factors position us as a leader in delivering efficient, effective, and user-friendly AI solutions for enterprises.
+      </p>
+    </div>
 
 
       <div className="max-w-7xl mx-auto p-6 mt-20 ">
-        <h1 className="text-center text-2xl md:text-3xl font-bold mb-8">
+        <h1 className="md:text-center text-justify text-2xl md:text-3xl font-bold mb-8">
         Empowering Your Business with Custom Web Development, Intuitive Interface Design, and Tailored AI Model Training for Optimal Performance and Innovation.
         </h1>
         <div className="grid gap-6 md:grid-cols-3 ">
@@ -238,18 +238,26 @@ const Page = () => {
       </div>
     </div>
 
-    <div className="flex flex-col items-center w-full    mt-28">
-          <h1 className="text-[40px] leading-[44px] font-[600] text-[#000000] ">Interested in Our Services ?</h1>
-          <p className="text-[#828282] text-center w-[80%] text-[24px] leading-[36px] font-[400]  mt-5 mb-10">Contact us today to discuss how Pankh AI can help transform your business with our comprehensive web development, interface design, and custom model training services.</p>
-          <Button data={"Get Started"} />
+    <div className="flex flex-col items-center w-full mt-16 sm:mt-20 md:mt-28 px-4 sm:px-6 md:px-8">
+      <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[40px] leading-tight sm:leading-snug md:leading-[44px] font-semibold text-black dark:text-white text-center">
+        Interested in Our Services?
+      </h1>
+      <p className="text-gray-600 dark:text-[#828282] text-base sm:text-lg md:text-xl lg:text-2xl xl:text-[24px] leading-relaxed sm:leading-normal md:leading-[36px] font-normal mt-3 sm:mt-4 md:mt-5 mb-6 sm:mb-8 md:mb-10 text-justify md:text-center w-full sm:w-[90%] md:w-[80%]">
+        Contact us today to discuss how Pankh AI can help transform your business with our comprehensive web development, interface design, and custom model training services.
+      </p>
+      <Button data={"Get Started"} />
     </div>
 
     <ContactUs/>
 
-    <div className="flex flex-col items-center w-full    mt-28">
-          <h1 className="text-[40px] leading-[44px] font-[600] text-[#000000] dark:text-white ">KRITRUM PANKH SOLUTIONS</h1>
-          <p className="text-[#828282] text-[24px] leading-[36px] font-[400]  mt-5 mb-10">Empowering Businesses with Cutting-Edge Generative AI Solutions</p>
-          <Button data={"Button"} />
+    <div className="flex flex-col items-center w-full mt-16 sm:mt-20 md:mt-28 px-4 sm:px-6 md:px-8">
+      <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[40px] leading-tight sm:leading-snug md:leading-[44px] font-semibold text-black dark:text-white">
+        KRITRUM PANKH SOLUTIONS
+      </h1>
+      <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-[24px] leading-relaxed sm:leading-normal md:leading-[36px] font-normal text-gray-600 dark:text-[#828282] mt-3 sm:mt-4 md:mt-5 mb-6 sm:mb-8 md:mb-10">
+        Empowering Businesses with Cutting-Edge Generative AI Solutions
+      </p>
+      <Button data={"Button"} />
     </div>
 
     <Footer />
